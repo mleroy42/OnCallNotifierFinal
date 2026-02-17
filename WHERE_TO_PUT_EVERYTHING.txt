@@ -1,0 +1,26 @@
+Paste your **actual** scripts into these exact files/paths under:
+  app/src/main/java/com/example/oncallnotifier/
+
+- config/DefaultMonthConfig.kt        -> package com.example.oncallnotifier.config
+- config/MonthConfig.kt               -> package com.example.oncallnotifier.config
+- data/Prefs.kt                       -> package com.example.oncallnotifier.data
+
+- network/GoogleApis.kt               -> package com.example.oncallnotifier.network
+- network/GoogleCalendarApi.kt        -> package com.example.oncallnotifier.network
+- network/GoogleCalendarModels.kt     -> package com.example.oncallnotifier.network
+- network/GoogleSheetsAPI.kt          -> package com.example.oncallnotifier.network
+- network/RetrofitClient.kt           -> package com.example.oncallnotifier.network
+- network/TokenApi.kt                 -> package com.example.oncallnotifier.network
+- network/TokenRepository.kt          -> package com.example.oncallnotifier.network
+- network/TokenResponse.kt            -> package com.example.oncallnotifier.network
+
+- sheets/SheetsHelper.kt              -> package com.example.oncallnotifier.sheets
+- sheets/ColoredCell.kt               -> package com.example.oncallnotifier.sheets
+
+- work/Scheduler.kt                   -> package com.example.oncallnotifier.work
+- calendar/GoogleCalendarService.kt   -> package com.example.oncallnotifier.calendar
+
+- CalDate.kt                          -> package com.example.oncallnotifier
+- MainActivity.kt                     -> package com.example.oncallnotifier
+
+Make sure the **first line in each file** matches the package shown above.
